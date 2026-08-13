@@ -1,0 +1,31 @@
+Source ID,Input / Claim,Value,Unit,As of,Type,Source / Owner,URL,Accessed,Notes
+S1,"UR20 payload, reach and power consumption","20 kg nominal; 25 kg boundary; 1,750 mm; approx. 500 W typical",mixed,2026-08-10,Primary vendor technical source,Universal Robots,https://www.universal-robots.com/manuals/EN/HTML/SW5_25/Content/prod-usr-man/complianceUR20/H_g5_sections/appendix_g5/tech_spec_UR20.htm,2026-08-10,Technical facts only; total cell performance still requires integration study.
+S2,Published palletizing use case,Products up to 12 kg,kg,current page,Primary vendor case study,Universal Robots / Ornua,https://www.universal-robots.com/case-stories/ornua/,2026-08-10,"Supports technical plausibility, not our economic assumptions."
+S3,Swedish labor-cost benchmark context,390–510 scenario range,SEK/hour,2025 data,Official statistics + model scenario,Eurostat,https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Hourly_labour_costs,2026-08-10,Use site payroll and overhead for a real decision; Eurostat notes Sweden has a high non-wage cost share.
+S4,Corporate income tax rate,0.206,%,current page,Primary government source,Skatteverket,https://www.skatteverket.se/servicelankar/otherlanguages/englishengelska/businessesandemployers/nonswedishbusinesseswithoperationsinsweden/declaringincome.4.676f4884175c97df41919b9.html,2026-08-10,Simplified cash-tax assumption; confirm company-specific tax treatment.
+A1,Evaluation horizon,5,years,model design,Model assumption,Project owner,,2026-08-10,Chosen for a compact capital-investment case.
+A2,Discount rate,6% / 8% / 10%,%,scenario,Management assumption,CFO,,2026-08-10,Replace with approved WACC or investment hurdle.
+A3,Depreciation period,5,years,scenario,Simplifying assumption,Finance,,2026-08-10,Straight-line; confirm tax depreciation.
+A4,Shifts per day,1 / 2 / 3,shifts/day,scenario,Site assumption,Operations,,2026-08-10,Confirm production schedule.
+A5,Operating days,225 / 240 / 250,days/year,scenario,Site assumption,Operations,,2026-08-10,Confirm production calendar.
+A6,Productive shift hours,7.2 / 7.5 / 7.7,hours/shift,scenario,Site assumption,Operations,,2026-08-10,Confirm paid and productive hours.
+A7,Operators per shift,1,FTE/shift,scenario,Site assumption,Operations,,2026-08-10,Confirm actual task allocation.
+A8,Labor-savings realization,45% / 65% / 85%,%,scenario,Decision assumption,COO / CFO,,2026-08-10,Key value driver; prove cost avoidance or measurable redeployment.
+A9,Cell uptime,85% / 92% / 96%,%,scenario,Engineering assumption,Engineering,,2026-08-10,Validate during pilot.
+A10,Labor cost inflation,2% / 3% / 4%,%,scenario,Economic assumption,Finance,,2026-08-10,"Scenario only, not a forecast."
+A11,Loaded labor cost,390 / 450 / 510,SEK/hour,scenario,Site assumption,Finance / HR,,2026-08-10,"Replace with payroll, employer costs and overhead policy."
+A12,End-effector weight,5,kg,scenario,Engineering assumption,Integrator,,2026-08-10,Verify tooling mass and center of gravity.
+A13,Required line rate,220,cartons/hour,scenario,Site assumption,Operations,,2026-08-10,Measure actual peak and sustained rates.
+A14,Designed cell throughput,230 / 250 / 280,cartons/hour,scenario,Engineering assumption,Integrator,,2026-08-10,Requires layout and cycle-time study.
+A15,Robot and controller,600k–750k,SEK,scenario,Quote placeholder,Supplier,,2026-08-10,Not a market quote.
+A16,End-effector and pedestal,220k–300k,SEK,scenario,Quote placeholder,Supplier,,2026-08-10,Not a market quote.
+A17,Safety and conveyor integration,160k–250k,SEK,scenario,Quote placeholder,Integrator,,2026-08-10,Scope depends on risk assessment and existing line.
+A18,Systems integration and commissioning,300k–500k,SEK,scenario,Quote placeholder,Integrator,,2026-08-10,Not a market quote.
+A19,Training and change management,50k–100k,SEK,scenario,Quote placeholder,Operations / HR,,2026-08-10,Illustrative launch allowance.
+A20,Contingency,5% / 10% / 15%,%,scenario,Management assumption,CFO,,2026-08-10,Applied to installed-cost line items.
+A21,Annual maintenance,4% / 5% / 7%,% of capex,scenario,Quote placeholder,Maintenance,,2026-08-10,Replace with service contract and spare-parts plan.
+A22,Software and service,20k–45k,SEK/year,scenario,Quote placeholder,Supplier,,2026-08-10,Illustrative recurring cost.
+A23,Electricity price,1.0–2.0,SEK/kWh,scenario,Economic assumption,Finance,,2026-08-10,Replace with site all-in cost.
+A24,Operating-cost inflation,1% / 2% / 3%,%,scenario,Economic assumption,Finance,,2026-08-10,"Scenario only, not a forecast."
+A25,Salvage value,0% / 5% / 10%,% of capex,scenario,Management assumption,Finance,,2026-08-10,After-tax proceeds in Year 5.
+A26,Other quantified benefit,0,SEK/year,scenario,Conservative assumption,Project owner,,2026-08-10,"Safety, quality and capacity benefits excluded unless evidenced."

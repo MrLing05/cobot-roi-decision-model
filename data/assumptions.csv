@@ -1,0 +1,32 @@
+Category,Variable,Unit,Downside,Base Case,Upside,Input Type,Source ID,Source / Rationale
+Case setup,Evaluation horizon,years,5,5,5,Model assumption,A1,Five-year horizon keeps the case compact and interview-friendly.
+Case setup,Discount rate,%,0.1,0.08,0.06,Management assumption,A2,Illustrative hurdle-rate range; replace with company WACC or approved investment hurdle.
+Case setup,Corporate tax rate,%,0.206,0.206,0.206,Public source,S4,Swedish corporate income tax rate used as a simplified cash-tax assumption.
+Case setup,Depreciation period,years,5,5,5,Model assumption,A3,Straight-line depreciation for modelling simplicity; confirm tax treatment.
+Operating model,Shifts per day,shifts/day,1,2,3,Site assumption,A4,Primary operating-condition driver; confirm production schedule.
+Operating model,Operating days per year,days/year,225,240,250,Site assumption,A5,Scenario range for planned production days.
+Operating model,Productive hours per shift,hours/shift,7.2,7.5,7.7,Site assumption,A6,Excludes planned breaks and non-productive time.
+Operating model,Operators assigned per shift,FTE/shift,1,1,1,Site assumption,A7,One person currently allocated to manual palletizing per shift.
+Operating model,Labor-savings realization rate,%,0.45,0.65,0.85,Decision assumption,A8,Share of addressable labor cost that can truly be removed or redeployed to measured value-added work.
+Operating model,Cell uptime,%,0.85,0.92,0.96,Engineering assumption,A9,Availability assumption pending site trial and maintenance plan.
+Operating model,Annual labor cost inflation,%,0.02,0.03,0.04,Economic assumption,A10,Scenario range; not a forecast.
+Operating model,Loaded labor cost,SEK/hour,390,450,510,Benchmark + assumption,S3 / A11,Rounded scenario range anchored to public labor-cost data; replace with site payroll and overhead.
+Technical feasibility,Carton weight,kg,12,12,12,Public case reference,S2,UR case study reports handling products up to 12 kg.
+Technical feasibility,End-effector weight,kg,5,5,5,Engineering assumption,A12,Placeholder for gripper and tooling; verify supplier specification.
+Technical feasibility,Robot payload rating used,kg,20,20,20,Public source,S1,Conservative nominal payload; UR states up to 25 kg under boundary conditions.
+Technical feasibility,Robot reach,mm,1750,1750,1750,Public source,S1,Published UR20 reach.
+Technical feasibility,Required line rate,cartons/hour,220,220,220,Site assumption,A13,Current process demand; must be measured on site.
+Technical feasibility,Designed cell throughput,cartons/hour,230,250,280,Engineering assumption,A14,Illustrative cycle-rate range; requires layout and cycle-time study.
+Technical feasibility,Average robot power draw,kW,0.75,0.5,0.3,Public source,S1,UR20 data sheet: 750 W maximum and about 500 W in a typical program; 300 W used as upside case.
+Initial investment,Robot and controller,SEK,750000,650000,600000,Quote placeholder,A15,Illustrative only — obtain supplier quote.
+Initial investment,End-effector and pedestal,SEK,300000,250000,220000,Quote placeholder,A16,Illustrative only — obtain supplier quote.
+Initial investment,Safety and conveyor integration,SEK,250000,200000,160000,Quote placeholder,A17,Illustrative only — validate risk assessment and line-interface scope.
+Initial investment,Systems integration and commissioning,SEK,500000,400000,300000,Quote placeholder,A18,Illustrative only — obtain integrator quote.
+Initial investment,Training and change management,SEK,100000,75000,50000,Quote placeholder,A19,"Illustrative allowance for launch, training and ramp-up."
+Initial investment,Contingency,%,0.15,0.1,0.05,Management assumption,A20,Applied to the five installed-cost line items.
+Operating cost,Annual maintenance,% of capex,0.07,0.05,0.04,Quote placeholder,A21,Scenario range; replace with service contract and spare-parts plan.
+Operating cost,Annual software and service,SEK/year,45000,30000,20000,Quote placeholder,A22,Illustrative recurring support cost.
+Operating cost,Electricity price,SEK/kWh,2,1.5,1,Economic assumption,A23,All-in site electricity scenario; replace with contract and network cost.
+Operating cost,Annual operating-cost inflation,%,0.03,0.02,0.01,Economic assumption,A24,"Applied to maintenance, service, electricity and other benefits."
+End of life,Salvage value,% of capex,0,0.05,0.1,Management assumption,A25,After-tax salvage proceeds are included in Year 5.
+Benefits,Other quantified annual benefit,SEK/year,0,0,0,Conservative assumption,A26,"Set to zero to avoid unsubstantiated safety, quality or capacity benefits."

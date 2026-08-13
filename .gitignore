@@ -1,0 +1,7 @@
+# Local workbook inspection and temporary files
+*.inspect.ndjson
+~$*.xlsx
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

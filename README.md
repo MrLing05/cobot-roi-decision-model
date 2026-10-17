@@ -8,6 +8,8 @@ Version 0.2 · August 2026 · SEK · Five-year annual model
 
 [Read the standalone executive summary](./Cobot_ROI_Executive_Summary.md)
 
+[Open the interactive website](./index.html) — an animated project page with a live version of the cash-flow model. To publish it, enable GitHub Pages for this branch (root folder); it is static HTML, CSS and JavaScript with no build step.
+
 > **Final recommendation: RUN PILOT.** The base case is financially attractive, but the most important operating and cost assumptions still require site evidence.
 
 ![Executive dashboard showing the base-case investment metrics and decision criteria](assets/executive_dashboard.png)
@@ -217,6 +219,11 @@ All 13 internal controls return `OK`, and the overall workbook status is `PASS`.
 ```text
 .
 ├── README.md
+├── index.html
+├── site/
+│   ├── styles.css
+│   ├── model.js
+│   └── main.js
 ├── Cobot_ROI_Model_v0.2.xlsx
 ├── Cobot_ROI_Executive_Summary.md
 ├── data/
